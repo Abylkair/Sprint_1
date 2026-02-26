@@ -14,6 +14,6 @@ for t in time:
         elif 's' in p:
             total_s += int(p.replace('s',''))
 
-# переводим всё в минуты
+
 total_minutes = total_h*60 + total_m + total_s//60
 print(total_minutes)
